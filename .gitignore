@@ -1,0 +1,43 @@
+# ─── Auto-generated ──────────────────────────────────────────
+.cxx
+.kotlin
+.externalNativeBuild
+*.dex
+bin/
+gen/
+out/
+generated/
+
+# ─── 공통 (OS, IDE) ────────────────────────────────────────────
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+# JetBrains IDEs (IntelliJ, Android Studio 등)
+*.iml
+.idea/*
+.idea/caches
+.idea/codeStyles
+.idea/dictionaries
+.idea/libraries
+
+# ─── Gradle ──────────────────────────────────────────────────
+.gradle/
+build/
+
+# ─── 로컬 설정 ───────────────────────────────────────────────────
+local.properties
+*.keystore
+
+# ─── Android ─────────────────────────────────────────────────
+# 각 Android 모듈의 빌드 산출물
+**/build/
+*.apk
+*.ap_
+*.aab
+captures/
+
+# ─── 기타 ──────────────────────────────────────────────────────
+# 바이너리, 로그 등
+*.class
+*.log
